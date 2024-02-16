@@ -4,7 +4,7 @@ const dollarSigns = "$$"
 const deliveryTimeMax = "90"
 const maxDistance = 10
 let result: string
-let hour = new Date().getHours()
+let hour: number = new Date().getHours()
 
 const priceBracket: number = dollarSigns.length
 
